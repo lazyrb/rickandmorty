@@ -5,14 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CharacterComponent } from './character/character.component';
-import { SearchComponent } from './search/search.component';
+import { CharacterComponent } from './components/characterDetails/character.details.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [		
     AppComponent,
     SearchComponent,
-    CharacterComponent
+    CharacterComponent,
    ],
   imports: [
     BrowserModule,
