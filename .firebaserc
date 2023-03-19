@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rickandmorty-5a46f": {
+      "hosting": {
+        "rickandmorty": [
+          "rickandmorty-5a46f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rickandmorty-5a46f"
+  }
+}

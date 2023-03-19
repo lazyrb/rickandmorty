@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "rickandmorty:build:production",
+            "firebaseProject": "rickandmorty-5a46f",
+            "firebaseHostingSite": "rickandmorty-5a46f"
+          }
         }
       }
     }
