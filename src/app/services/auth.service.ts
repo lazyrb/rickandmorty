@@ -6,14 +6,14 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 })
 export class AuthService {
   constructor(
-    public afAuth: AngularFireAuth // Inject Firebase auth service
+    public afAuth: AngularFireAuth
   ) {}
-  // Sign in with Google
+
   GoogleAuth() {
     return this.AuthLogin(new GoogleAuthProvider());
   }
-  // Auth logic to run auth providers
-  AuthLogin(provider) {
+
+  AuthLogin(provider: any) {
     return this.afAuth
       .signInWithPopup(provider)
       .then((result) => {

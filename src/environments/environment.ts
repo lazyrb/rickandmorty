@@ -5,15 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "xxxxxxxx-xxxxxxxx",
-    authDomain: "xxxxxxxxxxxxxxxxxxxxxxxx",
-    databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxx",
-    projectId: "xxxxxxxx",
-    storageBucket: "xxxxxxxx",
-    messagingSenderId: "xxxxxx",
-    appId: "xxxxx",
-    measurementId: "xxxxxxxxxxxxxxxx"
-  }
+    apiKey: 'AIzaSyD1lcxrzdn57B0m_CXh5_zQVaB34msKbi4',
+    authDomain: 'rickandmorty-5a46f.firebaseapp.com',
+    projectId: 'rickandmorty-5a46f',
+    storageBucket: 'rickandmorty-5a46f.appspot.com',
+    messagingSenderId: '220009876299',
+    appId: '1:220009876299:web:1240569b16f349d7b136ce',
+  },
 };
 
 /*
